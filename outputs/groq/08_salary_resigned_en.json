@@ -1,0 +1,78 @@
+{
+  "case": {
+    "story": "I resigned from a private software company in Hyderabad on 15 October 2026. They have not paid my October salary of Rs 42,000 or my full and final settlement. HR says 'it takes 90 days'. I have my offer letter and salary slips.",
+    "language": "en",
+    "issue": "unpaid_salary",
+    "issue_scores": {
+      "deposit": 0,
+      "consumer_refund": 0,
+      "unpaid_salary": 6
+    },
+    "amounts_mentioned": [
+      42000
+    ],
+    "dates_mentioned": [
+      "15 October 2026",
+      "October 2026"
+    ],
+    "months_since_problem": 1.2,
+    "evidence_mentioned": [
+      "offer or appointment letter",
+      "salary slips",
+      "emails / messages asking for the salary",
+      "resignation or termination letter (if any)"
+    ],
+    "evidence_to_collect": [
+      "bank statement showing the last salary received"
+    ],
+    "red_flags": [],
+    "in_scope": true,
+    "llm": {
+      "issue": "unpaid_salary",
+      "language": "en",
+      "timeline": [
+        {
+          "date": "2026-10-15",
+          "event": "Resigned from private software company in Hyderabad"
+        },
+        {
+          "date": "unknown",
+          "event": "Salary for October 2026 of Rs 42,000 not paid; full and final settlement pending; HR says it takes 90 days"
+        }
+      ],
+      "other_party": "private software company in Hyderabad",
+      "amount_inr": 42000,
+      "evidence_have": [
+        "offer letter",
+        "salary slips"
+      ],
+      "evidence_missing": [
+        "written settlement agreement or pending settlement statement",
+        "communication confirming 90‑day timeline"
+      ],
+      "questions": [
+        "Has the company provided a written breakup of the full and final settlement?",
+        "Did you receive any email or letter confirming the 90‑day processing period?",
+        "Are there any clauses in your employment contract regarding notice period and settlement timelines?"
+      ],
+      "safety_or_crime": false,
+      "summary": "The user resigned on 15 Oct 2026 and has not received the October salary of Rs 42,000 or the full‑and‑final settlement. They possess an offer letter and salary slips but need further documentation from the employer."
+    }
+  },
+  "result": {
+    "markdown": "**What happened**\nYou resigned on 15 Oct 2026 from a private software company in Hyderabad. Your October salary of Rs 42,000 and the full‑and‑final settlement have not been paid. HR says it will take 90 days.\n\n**Where you stand**\n- Under the Code on Wages, 2019, wages for a monthly‑paid employee must be paid before the end of the 7th day of the next month [W-DUE].\n- If you resign, your wages are due within two working days [W-EXIT].\nThus the employer is already in breach of the law.\n\n**What to do next**\n1. Send a **formal written reminder** (email or registered post) to the HR/management asking for payment of the October salary and the full‑and‑final settlement **within 2 working days** as required by law. Mention the statutory deadline and that you may file a wage claim if not paid.\n2. If there is no response, **file a wage claim** with the labour authority (the officer not below Gazetted rank) in Hyderabad within **three years** of the claim arising [W-CLAIM].\n\n**What to collect**\n- Offer/appointment letter (you have).\n- Salary slips (you have).\n- Bank statement showing the last salary received.\n- All email / message threads with HR about the pending salary and the 90‑day claim.\n- Any resignation letter you submitted.\n- Any written communication from the company (even a screenshot) stating the 90‑day timeline.\n\n**When to get a real lawyer**\n- If the employer refuses to pay even after your written reminder.\n- If the labour authority’s process becomes complex or you need representation.\n- If you want to claim interest or damages beyond the basic wage claim.\n\n*This is general information, not legal advice.*\n\n### When you need a real lawyer\n- The other side replies through a lawyer, sends you a notice, or threatens you.\n- You are near a time limit, or the amount is large for you.\n- You are not sure the facts above are right. This is general information, not legal advice.\nFree legal aid: call the NALSA helpline 15100 or visit your District Legal Services Authority. Women and children are eligible whatever they earn; others qualify under Section 12 of the Legal Services Authorities Act, 1987, for example by income. [LA-NALSA]\n\n**Draft letter (edit before sending):**\n```\nDate: 21 November 2026\nTo: [HR Manager / Director], [Company name], [Address]\nSubject: Payment of pending salary of ₹42,000\n\nI [work / worked] as [designation] (Employee ID [ID]) since [joining date].\nMy salary for [months] totalling ₹42,000 has not been paid.\nI resigned on 15 October 2026, and my dues remain unpaid.\n\nPlease pay ₹42,000 to my salary account within 7 days and share a statement of my dues.\nIf it is not paid, I will file a claim before the authority under the Code on Wages, 2019.\n\n[Your name] · [Phone] · [Email]\nEnclosed: offer letter, salary slips, bank statement, earlier emails\n```\n\n**Sources (checked 2026-11-21):**\n- [W-DUE] https://vvgnli.gov.in/en/node/94506 · https://future.indiankanoon.org/doc/151218690/\n- [W-EXIT] https://www.livelaw.in/articles/two-working-days-code-wages-employee-final-settlement-552780 · https://vvgnli.gov.in/en/node/94506\n- [W-CLAIM] https://www.advocatekhoj.com/library/bareacts/codeonwages/45.php · https://taxclue.in/blog/section-45-code-on-wages-2019-claims-and-procedure/\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "W-DUE",
+      "W-EXIT",
+      "W-CLAIM",
+      "LA-NALSA"
+    ],
+    "guard_removed": [],
+    "attempts": [
+      {
+        "raw": "**What happened**\nYou resigned on 15 Oct 2026 from a private software company in Hyderabad. Your October salary of Rs 42,000 and the full‑and‑final settlement have not been paid. HR says it will take 90 days.\n\n**Where you stand**\n- Under the Code on Wages, 2019, wages for a monthly‑paid employee must be paid before the end of the 7th day of the next month [W-DUE].\n- If you resign, your wages are due within two working days [W-EXIT].\nThus the employer is already in breach of the law.\n\n**What to do next**\n1. Send a **formal written reminder** (email or registered post) to the HR/management asking for payment of the October salary and the full‑and‑final settlement **within 2 working days** as required by law. Mention the statutory deadline and that you may file a wage claim if not paid.\n2. If there is no response, **file a wage claim** with the labour authority (the officer not below Gazetted rank) in Hyderabad within **three years** of the claim arising [W-CLAIM].\n\n**What to collect**\n- Offer/appointment letter (you have).\n- Salary slips (you have).\n- Bank statement showing the last salary received.\n- All email / message threads with HR about the pending salary and the 90‑day claim.\n- Any resignation letter you submitted.\n- Any written communication from the company (even a screenshot) stating the 90‑day timeline.\n\n**When to get a real lawyer**\n- If the employer refuses to pay even after your written reminder.\n- If the labour authority’s process becomes complex or you need representation.\n- If you want to claim interest or damages beyond the basic wage claim.\n\n*This is general information, not legal advice.*",
+        "removed": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "case": {
+    "story": "Bhai mera PG owner mera 25000 deposit wapas nahi kar raha. Maine 1 August 2026 ko room khali kiya tha, chabi bhi de di thi. Ab phone bhi nahi utha raha. Kya karu?",
+    "language": "hi",
+    "issue": "deposit",
+    "issue_scores": {
+      "deposit": 2,
+      "consumer_refund": 1,
+      "unpaid_salary": 0
+    },
+    "amounts_mentioned": [
+      25000
+    ],
+    "dates_mentioned": [
+      "1 August 2026",
+      "August 2026"
+    ],
+    "months_since_problem": 3.7,
+    "evidence_mentioned": [
+      "date you handed back the keys"
+    ],
+    "evidence_to_collect": [
+      "rent agreement",
+      "proof you paid the deposit (receipt / bank or UPI transfer)",
+      "photos or video of the flat when you left",
+      "messages with the landlord"
+    ],
+    "red_flags": [],
+    "in_scope": true,
+    "llm": {
+      "issue": "deposit",
+      "language": "hi",
+      "timeline": [
+        {
+          "date": "1 August 2026",
+          "event": "vacated room and returned key"
+        }
+      ],
+      "other_party": "PG owner",
+      "amount_inr": 25000,
+      "evidence_have": [],
+      "evidence_missing": [
+        "receipt or agreement showing deposit amount and terms of return"
+      ],
+      "questions": [
+        "Did you receive a written receipt for the deposit?",
+        "Has the PG owner provided any reason for withholding the deposit?",
+        "Have you attempted any written communication (e.g., SMS, email) with the owner?"
+      ],
+      "safety_or_crime": false,
+      "summary": "The user vacated a PG on 1 August 2026, returned the key, and the owner has not returned a 25,000 INR deposit and is not answering calls. They seek advice on how to proceed."
+    }
+  },
+  "result": {
+    "markdown": "**What happened**\n- You vacated the PG on 1 August 2026, handed over the keys and the owner has not returned your ₹25,000 security deposit.\n\n**Where you stand**\n- Under the Model Tenancy Act, 2021 a residential security deposit can be at most two months’ rent and must be refunded when you give vacant possession, after deducting any genuine dues. The landlord must also pay interest for the delay. [**R-MTA**]\n- If your state has adopted this model law, the owner is legally obliged to return the deposit (plus interest) now.\n\n**What to do next**\n1. Send a **formal written notice** (SMS, WhatsApp, email or registered post) to the PG owner asking for the deposit return within a reasonable time (e.g., 7‑10 days) and mention that interest will accrue under the Model Tenancy Act. Keep a copy.\n2. If there is no response, you can **file a civil suit** for recovery of the deposit. The limitation period is roughly three years from the date of default, so you are well within it. [**R-SUIT**]\n\n**What to collect**\n- Rent agreement or any document that mentions the security deposit amount and terms.\n- Proof of payment (receipt, bank statement, UPI transaction screenshot).\n- Photographs or video of the flat when you left, showing its condition.\n- All messages (SMS, WhatsApp, email) with the landlord about the deposit and hand‑over of keys.\n- A copy of the written notice you send.\n\n**When to get a real lawyer**\n- If the owner still ignores your notice.\n- If you need help drafting the legal notice or filing the suit.\n- If you are unsure whether your state has adopted the Model Tenancy Act.\n\n**Free legal help**\n- Call NALSA helpline **15100** or visit your District Legal Services Authority for free assistance. [**LA-NALSA**]\n\n*This is general information, not legal advice.*\n\n### कब असली वकील चाहिए\n- सामने वाला वकील के ज़रिए जवाब दे, नोटिस भेजे, या धमकी दे।\n- समय-सीमा पास हो, या रक़म आपके लिए बड़ी हो।\n- यह सामान्य जानकारी है, क़ानूनी सलाह नहीं।\nमुफ़्त क़ानूनी सहायता: NALSA हेल्पलाइन 15100 पर कॉल करें या अपने ज़िला विधिक सेवा प्राधिकरण (DLSA) जाएँ। महिलाएँ और बच्चे आय चाहे जो हो, पात्र हैं; बाक़ी लोग विधिक सेवा प्राधिकरण अधिनियम, 1987 की धारा 12 के तहत, जैसे आय के आधार पर, पात्र होते हैं। [LA-NALSA]\n\n**Draft letter (edit before sending):**\n```\nDate: 21 November 2026\nTo: [PLACEHOLDER], [PLACEHOLDER]\nSubject: Demand for refund of security deposit of ₹25,000\n\nI was your tenant at [PLACEHOLDER] from [PLACEHOLDER] to 1 August 2026.\nI paid a security deposit of ₹25,000 on [PLACEHOLDER] by [PLACEHOLDER].\nI handed back vacant possession on 1 August 2026. The deposit has not been refunded.\n\nPlease refund ₹25,000 to [PLACEHOLDER] within 15 days of this letter.\nIf you are deducting anything, please send a written, itemised list with reasons and bills.\n\nIf I do not receive the refund or a written reply within 15 days, I will take further steps\nto recover it, including approaching the legal services authority and the appropriate court.\n\n[PLACEHOLDER] · [PLACEHOLDER] · [PLACEHOLDER]\nEnclosed: rent agreement, deposit payment proof, handover message/photos\n```\n\n**Sources (checked 2026-11-21):**\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": [],
+    "attempts": [
+      {
+        "raw": "**What happened**\n- You vacated the PG on 1 August 2026, handed over the keys and the owner has not returned your ₹25,000 security deposit.\n\n**Where you stand**\n- Under the Model Tenancy Act, 2021 a residential security deposit can be at most two months’ rent and must be refunded when you give vacant possession, after deducting any genuine dues. The landlord must also pay interest for the delay. [**R-MTA**]\n- If your state has adopted this model law, the owner is legally obliged to return the deposit (plus interest) now.\n\n**What to do next**\n1. Send a **formal written notice** (SMS, WhatsApp, email or registered post) to the PG owner asking for the deposit return within a reasonable time (e.g., 7‑10 days) and mention that interest will accrue under the Model Tenancy Act. Keep a copy.\n2. If there is no response, you can **file a civil suit** for recovery of the deposit. The limitation period is roughly three years from the date of default, so you are well within it. [**R-SUIT**]\n\n**What to collect**\n- Rent agreement or any document that mentions the security deposit amount and terms.\n- Proof of payment (receipt, bank statement, UPI transaction screenshot).\n- Photographs or video of the flat when you left, showing its condition.\n- All messages (SMS, WhatsApp, email) with the landlord about the deposit and hand‑over of keys.\n- A copy of the written notice you send.\n\n**When to get a real lawyer**\n- If the owner still ignores your notice.\n- If you need help drafting the legal notice or filing the suit.\n- If you are unsure whether your state has adopted the Model Tenancy Act.\n\n**Free legal help**\n- Call NALSA helpline **15100** or visit your District Legal Services Authority for free assistance. [**LA-NALSA**]\n\n*This is general information, not legal advice.*",
+        "removed": []
+      }
+    ]
+  }
+}

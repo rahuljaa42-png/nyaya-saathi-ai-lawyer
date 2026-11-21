@@ -1,0 +1,84 @@
+{
+  "case": {
+    "story": "मैंने अमेज़न से 8,999 रुपये का मोबाइल ऑर्डर किया था, ख़राब निकला। रिटर्न कर दिया पर एक महीने से रिफ़ंड नहीं आया। क्या करूँ?",
+    "language": "hi",
+    "issue": "consumer_refund",
+    "issue_scores": {
+      "deposit": 0,
+      "consumer_refund": 3,
+      "unpaid_salary": 0
+    },
+    "amounts_mentioned": [
+      8999
+    ],
+    "dates_mentioned": [],
+    "months_since_problem": null,
+    "evidence_mentioned": [
+      "order ID and invoice"
+    ],
+    "evidence_to_collect": [
+      "proof of payment",
+      "screenshots of return / refund status",
+      "chat or email with customer care"
+    ],
+    "red_flags": [],
+    "in_scope": true,
+    "llm": {
+      "issue": "consumer_refund",
+      "language": "hi",
+      "timeline": [
+        {
+          "date": "unknown",
+          "event": "ordered mobile for ₹8,999"
+        },
+        {
+          "date": "unknown",
+          "event": "received defective mobile"
+        },
+        {
+          "date": "unknown",
+          "event": "initiated return"
+        },
+        {
+          "date": "unknown",
+          "event": "awaiting refund for over a month"
+        }
+      ],
+      "other_party": "Amazon",
+      "amount_inr": 8999,
+      "evidence_have": [
+        "order receipt",
+        "return confirmation"
+      ],
+      "evidence_missing": [
+        "refund transaction proof",
+        "communication with seller"
+      ],
+      "questions": [
+        "Did you receive any acknowledgment of the return from Amazon?",
+        "Have you contacted Amazon customer support regarding the pending refund?",
+        "Do you have a tracking number or proof of the returned package?"
+      ],
+      "safety_or_crime": false,
+      "summary": "The user ordered a mobile phone from Amazon for ₹8,999, found it defective, returned it, and has not received a refund after more than a month. They seek guidance on how to proceed with the refund claim."
+    }
+  },
+  "result": {
+    "markdown": "**What happened**\n- You bought a mobile for ₹8,999 from Amazon, received a defective unit, returned it and have been waiting for a refund for over a month.\n\n**Where you stand**\n- Under the Consumer Protection Act, Amazon (an e‑commerce platform) must have a Grievance Officer and must resolve complaints within one month. The delay breaches this duty. [CP-ECOM]\n- Your claim is for ₹8,999, which is below ₹5 lakh, so there is no filing fee at the District Consumer Commission. [CP-FEE]\n- The dispute value is ₹8,999, so the appropriate forum is the District Consumer Commission. [CP-FORUM]\n\n**What to do next**\n1. **Raise a grievance on Amazon** – use the Grievance Officer details (usually in *Help → Contact Us*). Mention the order ID, that the return was confirmed, and ask for the refund within the statutory 48‑hour acknowledgment and one‑month resolution. [CP-ECOM]\n2. **If Amazon does not resolve within 30 days**, register a free complaint with the National Consumer Helpline (1915 / 1800‑11‑4000 or consumerhelpline.gov.in). [CP-NCH]\n3. **If still unresolved**, file a consumer complaint online on the e‑Jagriti portal (e‑jagriti.gov.in). [CP-EJAGRITI]\n\n**What to collect**\n- Order receipt & invoice (you have).\n- Return confirmation email/SMS.\n- Proof of payment (bank statement or screenshot).\n- Screenshots of the return/refund status on Amazon.\n- Any chat/email with Amazon customer care (including timestamps).\n- Tracking number or proof of delivery of the returned package (if available).\n\n**When to get a real lawyer**\n- If Amazon refuses to refund even after the grievance and NCH steps, or if you receive a legal notice, consider consulting a lawyer.\n- You can also approach NALSA for free legal aid (call 15100). [LA-NALSA]\n\n*This is general information, not legal advice.*\n\n### कब असली वकील चाहिए\n- सामने वाला वकील के ज़रिए जवाब दे, नोटिस भेजे, या धमकी दे।\n- समय-सीमा पास हो, या रक़म आपके लिए बड़ी हो।\n- यह सामान्य जानकारी है, क़ानूनी सलाह नहीं।\nमुफ़्त क़ानूनी सहायता: NALSA हेल्पलाइन 15100 पर कॉल करें या अपने ज़िला विधिक सेवा प्राधिकरण (DLSA) जाएँ। महिलाएँ और बच्चे आय चाहे जो हो, पात्र हैं; बाक़ी लोग विधिक सेवा प्राधिकरण अधिनियम, 1987 की धारा 12 के तहत, जैसे आय के आधार पर, पात्र होते हैं। [LA-NALSA]\n\n**Draft letter (edit before sending):**\n```\nDate: 21 November 2026\nTo: The Grievance Officer, Amazon\nSubject: Refund not received – Order [ORDER ID]\n\nI placed order [ORDER ID] on [date] and paid ₹8,999 by [mode].\n[I returned the item on (date) / The order was cancelled on (date)], and the refund was promised by [date].\nAs of today the refund has not reached my account.\n\nPlease refund ₹8,999 to my original payment method within 7 days and confirm in writing.\nIf this is not resolved, I will register a grievance with the National Consumer Helpline\nand file a complaint before the District Consumer Commission.\n\n[Your name] · [Registered phone/email on the account]\nEnclosed: invoice, payment proof, screenshots of the return/refund status\n```\n\n**Sources (checked 2026-11-21):**\n- [CP-ECOM] https://fcainfoweb.nic.in/PMS/writereaddata/2021_LS_B_1317.pdf · https://thelaw.institute/consumer-protection-issues/e-commerce-consumer-rights-grievance-redressal\n- [CP-FEE] https://righttoinformation.wiki/how-to-file-consumer-forum-complaint-e-jagriti-dcdrc-india\n- [CP-FORUM] https://theprint.in/economy/govt-notifies-new-rules-for-consumer-commissions-national-bodys-jurisdiction-enhanced/791753 · https://righttoinformation.wiki/how-to-file-consumer-forum-complaint-e-jagriti-dcdrc-india\n- [CP-NCH] https://consumerhelpline.gov.in/public/about · https://www.angelone.in/news/economy/e-commerce-leads-as-national-consumer-helpline-helps-recover-45-crore-in-refunds-across-31-sectors\n- [CP-EJAGRITI] https://eparlib.sansad.in/bitstream/123456789/2996292/1/AU4546_s9hvb0.pdf · https://en.wikipedia.org/wiki/E-Jagriti\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "CP-ECOM",
+      "CP-FEE",
+      "CP-FORUM",
+      "CP-NCH",
+      "CP-EJAGRITI",
+      "LA-NALSA"
+    ],
+    "guard_removed": [],
+    "attempts": [
+      {
+        "raw": "**What happened**\n- You bought a mobile for ₹8,999 from Amazon, received a defective unit, returned it and have been waiting for a refund for over a month.\n\n**Where you stand**\n- Under the Consumer Protection Act, Amazon (an e‑commerce platform) must have a Grievance Officer and must resolve complaints within one month. The delay breaches this duty. [CP-ECOM]\n- Your claim is for ₹8,999, which is below ₹5 lakh, so there is no filing fee at the District Consumer Commission. [CP-FEE]\n- The dispute value is ₹8,999, so the appropriate forum is the District Consumer Commission. [CP-FORUM]\n\n**What to do next**\n1. **Raise a grievance on Amazon** – use the Grievance Officer details (usually in *Help → Contact Us*). Mention the order ID, that the return was confirmed, and ask for the refund within the statutory 48‑hour acknowledgment and one‑month resolution. [CP-ECOM]\n2. **If Amazon does not resolve within 30 days**, register a free complaint with the National Consumer Helpline (1915 / 1800‑11‑4000 or consumerhelpline.gov.in). [CP-NCH]\n3. **If still unresolved**, file a consumer complaint online on the e‑Jagriti portal (e‑jagriti.gov.in). [CP-EJAGRITI]\n\n**What to collect**\n- Order receipt & invoice (you have).\n- Return confirmation email/SMS.\n- Proof of payment (bank statement or screenshot).\n- Screenshots of the return/refund status on Amazon.\n- Any chat/email with Amazon customer care (including timestamps).\n- Tracking number or proof of delivery of the returned package (if available).\n\n**When to get a real lawyer**\n- If Amazon refuses to refund even after the grievance and NCH steps, or if you receive a legal notice, consider consulting a lawyer.\n- You can also approach NALSA for free legal aid (call 15100). [LA-NALSA]\n\n*This is general information, not legal advice.*",
+        "removed": []
+      }
+    ]
+  }
+}

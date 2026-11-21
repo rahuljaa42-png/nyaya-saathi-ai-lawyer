@@ -1,0 +1,77 @@
+{
+  "case": {
+    "story": "In 12 March 2024 I bought a laptop online for Rs 54,000. It was defective and the seller never refunded me. Can I still complain?",
+    "language": "en",
+    "issue": "consumer_refund",
+    "issue_scores": {
+      "deposit": 0,
+      "consumer_refund": 4,
+      "unpaid_salary": 0
+    },
+    "amounts_mentioned": [
+      54000
+    ],
+    "dates_mentioned": [
+      "12 March 2024",
+      "March 2024"
+    ],
+    "months_since_problem": 32.4,
+    "evidence_mentioned": [
+      "screenshots of return / refund status"
+    ],
+    "evidence_to_collect": [
+      "order ID and invoice",
+      "proof of payment",
+      "chat or email with customer care"
+    ],
+    "red_flags": [
+      {
+        "code": "time_limit",
+        "message": "You are close to or past the 2-year limit for consumer complaints. Act now and get legal advice."
+      }
+    ],
+    "in_scope": true,
+    "llm": {
+      "issue": "consumer_refund",
+      "language": "en",
+      "timeline": [
+        {
+          "date": "12 March 2024",
+          "event": "bought laptop"
+        }
+      ],
+      "other_party": "seller",
+      "amount_inr": 54000,
+      "evidence_have": [],
+      "evidence_missing": [
+        "receipt or order confirmation",
+        "communication with seller",
+        "proof of defect"
+      ],
+      "questions": [
+        "Do you have any written communication with the seller regarding the defect?",
+        "Did you receive any warranty or return policy details at the time of purchase?",
+        "Have you attempted to contact the seller for a refund?"
+      ],
+      "safety_or_crime": false,
+      "summary": "The user purchased a laptop online on 12 March 2024 for Rs 54,000, which was defective, and the seller has not provided a refund. They are seeking advice on whether they can still file a complaint."
+    }
+  },
+  "result": {
+    "markdown": "> ⚠️ You are close to or past the 2-year limit for consumer complaints. Act now and get legal advice.\n\n**What happened**\nYou bought a laptop online on 12 Mar 2024 for ₹54,000. It turned out to be defective and the seller has not refunded you.\n\n**Where you stand**\n- The value of your claim (₹54,000) is below ₹50 lakh, so the appropriate forum is the District Consumer Commission [CP-FORUM].\n- A consumer complaint must be filed within two years of the cause of action [CP-LIMIT]. Your purchase was on 12 Mar 2024, so you are still within the time limit.\n\n**What to do next**\n1. **Try a free grievance first** – call the National Consumer Helpline (1915 or 1800‑11‑4000) or use consumerhelpline.gov.in [CP-NCH].\n2. If the seller does not resolve the issue, file a complaint online on the e‑Jagriti portal [CP-EJAGRITI].\n\n**What to collect**\n- Order ID and invoice (or receipt) [Evidence to collect]\n- Proof of payment (bank statement, UPI screenshot)\n- All chat/email/WhatsApp messages with the seller about the defect or refund request\n- Screenshots of the return/refund status page\n- Any warranty or return‑policy information shown at purchase\n\n**When to get a real lawyer**\n- If the seller refuses to cooperate after the helpline and e‑Jagriti filing.\n- If you need help drafting a legal notice or representing you at the Consumer Commission.\n- You can obtain free legal aid through NALSA [LA-NALSA].\n\n*This is general information, not legal advice.*\n\n### When you need a real lawyer\n- The other side replies through a lawyer, sends you a notice, or threatens you.\n- You are near a time limit, or the amount is large for you.\n- You are not sure the facts above are right. This is general information, not legal advice.\nFree legal aid: call the NALSA helpline 15100 or visit your District Legal Services Authority. Women and children are eligible whatever they earn; others qualify under Section 12 of the Legal Services Authorities Act, 1987, for example by income. [LA-NALSA]\n\n**Draft letter (edit before sending):**\n```\nDate: 21 November 2026\nTo: The Grievance Officer, [Platform name]\nSubject: Refund not received – Order [ORDER ID]\n\nI placed order [ORDER ID] on 12 March 2024 and paid ₹54,000 by [mode].\n[I returned the item on (date) / The order was cancelled on (date)], and the refund was promised by [date].\nAs of today the refund has not reached my account.\n\nPlease refund ₹54,000 to my original payment method within 7 days and confirm in writing.\nIf this is not resolved, I will register a grievance with the National Consumer Helpline\nand file a complaint before the District Consumer Commission.\n\n[Your name] · [Registered phone/email on the account]\nEnclosed: invoice, payment proof, screenshots of the return/refund status\n```\n\n**Sources (checked 2026-11-21):**\n- [CP-FORUM] https://theprint.in/economy/govt-notifies-new-rules-for-consumer-commissions-national-bodys-jurisdiction-enhanced/791753 · https://righttoinformation.wiki/how-to-file-consumer-forum-complaint-e-jagriti-dcdrc-india\n- [CP-LIMIT] https://righttoinformation.wiki/edaakhil-online-consumer-commission-filing-india\n- [CP-NCH] https://consumerhelpline.gov.in/public/about · https://www.angelone.in/news/economy/e-commerce-leads-as-national-consumer-helpline-helps-recover-45-crore-in-refunds-across-31-sectors\n- [CP-EJAGRITI] https://eparlib.sansad.in/bitstream/123456789/2996292/1/AU4546_s9hvb0.pdf · https://en.wikipedia.org/wiki/E-Jagriti\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "CP-FORUM",
+      "CP-LIMIT",
+      "CP-NCH",
+      "CP-EJAGRITI",
+      "LA-NALSA"
+    ],
+    "guard_removed": [],
+    "attempts": [
+      {
+        "raw": "**What happened**\nYou bought a laptop online on 12 Mar 2024 for ₹54,000. It turned out to be defective and the seller has not refunded you.\n\n**Where you stand**\n- The value of your claim (₹54,000) is below ₹50 lakh, so the appropriate forum is the District Consumer Commission [CP-FORUM].\n- A consumer complaint must be filed within two years of the cause of action [CP-LIMIT]. Your purchase was on 12 Mar 2024, so you are still within the time limit.\n\n**What to do next**\n1. **Try a free grievance first** – call the National Consumer Helpline (1915 or 1800‑11‑4000) or use consumerhelpline.gov.in [CP-NCH].\n2. If the seller does not resolve the issue, file a complaint online on the e‑Jagriti portal [CP-EJAGRITI].\n\n**What to collect**\n- Order ID and invoice (or receipt) [Evidence to collect]\n- Proof of payment (bank statement, UPI screenshot)\n- All chat/email/WhatsApp messages with the seller about the defect or refund request\n- Screenshots of the return/refund status page\n- Any warranty or return‑policy information shown at purchase\n\n**When to get a real lawyer**\n- If the seller refuses to cooperate after the helpline and e‑Jagriti filing.\n- If you need help drafting a legal notice or representing you at the Consumer Commission.\n- You can obtain free legal aid through NALSA [LA-NALSA].\n\n*This is general information, not legal advice.*",
+        "removed": []
+      }
+    ]
+  }
+}

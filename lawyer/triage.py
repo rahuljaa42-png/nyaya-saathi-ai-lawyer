@@ -65,8 +65,9 @@ def red_flags(text: str) -> list[dict]:
     return [{"code": code, "message": msg} for code, msg, pat in RED_FLAGS if re.search(pat, t, re.I)]
 
 
-AMOUNT_RE = re.compile(r"(?:₹|rs\.?|inr|rupees?)\s*([\d,]+(?:\.\d+)?)\s*(lakh|lac|k|thousand|crore)?"
-                       r"|([\d,]+(?:\.\d+)?)\s*(lakh|lac|k|thousand|crore|rupees?|rs\b|रुपये|रुपए|रुपया|रु\.?|लाख|हज़ार|हजार)", re.I)
+# A unit must end the word: otherwise "2026 ko" (Hinglish "on") was read as "2026 k" = ₹20,26,000.
+AMOUNT_RE = re.compile(r"(?:₹|rs\.?|inr|rupees?)\s*([\d,]+(?:\.\d+)?)\s*(?:(lakh|lac|k|thousand|crore)(?![a-z]))?"
+                       r"|([\d,]+(?:\.\d+)?)\s*(lakh|lac|k|thousand|crore|rupees?|rs\b|रुपये|रुपए|रुपया|रु\.?|लाख|हज़ार|हजार)(?![a-z])", re.I)
 
 
 def amounts(text: str) -> list[int]:

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "g1_fake_section",
+    "pass": true,
+    "input": "Under Section 2(47) of the Consumer Protection Act, 2019 this is an unfair trade practice. You have 2 years under Section 69 of the Consumer Protection Act, 2019.",
+    "output": "Under [unverified legal reference removed] of the Consumer Protection Act, 2019 this is an unfair trade practice. You have 2 years under Section 69 of the Consumer Protection Act, 2019.",
+    "removed": [
+      {
+        "kind": "section",
+        "text": "Section 2(47)"
+      }
+    ]
+  },
+  {
+    "id": "g2_ipc_bns",
+    "pass": true,
+    "input": "Your landlord can be booked under IPC 420 or BNS section 318 for cheating.",
+    "output": "Your landlord can be booked under [unverified legal reference removed] or [unverified legal reference removed] for cheating.",
+    "removed": [
+      {
+        "kind": "acronym",
+        "text": "IPC 420"
+      },
+      {
+        "kind": "acronym",
+        "text": "BNS section 318"
+      }
+    ]
+  },
+  {
+    "id": "g3_case_law",
+    "pass": true,
+    "input": "As held in Rediff India Ltd v. Urmil Munjal, platforms are liable.",
+    "output": "As held in [unverified legal reference removed], platforms are liable.",
+    "removed": [
+      {
+        "kind": "case",
+        "text": "Rediff India Ltd v. Urmil Munjal"
+      }
+    ]
+  },
+  {
+    "id": "g4_wrong_act_pair",
+    "pass": true,
+    "input": "Section 12 of the Consumer Protection Act, 2019 gives you the right to free aid.",
+    "output": "[unverified legal reference removed] of the Consumer Protection Act, 2019 gives you the right to free aid.",
+    "removed": [
+      {
+        "kind": "section",
+        "text": "Section 12"
+      }
+    ]
+  },
+  {
+    "id": "g5_hindi_dhara",
+    "pass": true,
+    "input": "वेतन संहिता की धारा 45 के तहत दावा करें। धारा 33 भी लागू होती है।",
+    "output": "वेतन संहिता की धारा 45 के तहत दावा करें। [unverified legal reference removed] भी लागू होती है।",
+    "removed": [
+      {
+        "kind": "section",
+        "text": "धारा 33"
+      }
+    ]
+  },
+  {
+    "id": "g6_unknown_act",
+    "pass": true,
+    "input": "Under the Delhi Rent Control Act, 1958 and the Indian Contract Act, 1872 you can claim interest.",
+    "output": "Under the [unverified legal reference removed] and the [unverified legal reference removed] you can claim interest.",
+    "removed": [
+      {
+        "kind": "act",
+        "text": "Delhi Rent Control Act, 1958"
+      },
+      {
+        "kind": "act",
+        "text": "Indian Contract Act, 1872"
+      }
+    ]
+  },
+  {
+    "id": "g7_allowed_kept",
+    "pass": true,
+    "input": "The Code on Wages, 2019 requires payment within two working days after resignation (Section 17).",
+    "output": "The Code on Wages, 2019 requires payment within two working days after resignation (Section 17).",
+    "removed": []
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "case": {
+    "story": "Meri company ne pichhle 2 mahine se salary nahi di. Main abhi bhi kaam kar raha hoon. Har mahine 18000 milta hai. HR bolta hai funds nahi hai.",
+    "language": "hi",
+    "issue": "unpaid_salary",
+    "issue_scores": {
+      "deposit": 0,
+      "consumer_refund": 0,
+      "unpaid_salary": 3
+    },
+    "amounts_mentioned": [
+      18000
+    ],
+    "dates_mentioned": [],
+    "months_since_problem": 2.0,
+    "evidence_mentioned": [
+      "emails / messages asking for the salary"
+    ],
+    "evidence_to_collect": [
+      "offer or appointment letter",
+      "salary slips",
+      "bank statement showing the last salary received",
+      "resignation or termination letter (if any)"
+    ],
+    "red_flags": [],
+    "in_scope": true,
+    "llm": {
+      "issue": "unpaid_salary",
+      "language": "hi",
+      "timeline": [
+        {
+          "date": "unknown",
+          "event": "salary not paid for 2 months"
+        }
+      ],
+      "other_party": "company HR",
+      "amount_inr": 18000,
+      "evidence_have": [],
+      "evidence_missing": [
+        "pay slips or salary statements",
+        "employment contract"
+      ],
+      "questions": [
+        "Has the company provided any written explanation for the delay?",
+        "Do you have any employment contract or salary agreement documents?",
+        "Have you formally raised a grievance or written complaint to HR?"
+      ],
+      "safety_or_crime": false,
+      "summary": "The user reports that their company has not paid salary for the past two months despite continuing to work, receiving ₹18,000 per month. The HR claims lack of funds, and the user seeks guidance on the unpaid salary issue."
+    }
+  },
+  "result": {
+    "markdown": "**What happened**\n- You have been working for the company and have not received salary for the last 2 months (₹18,000 per month). HR says there are no funds.\n\n**Where you stand**\n- Under the Code on Wages, 2019, wages for monthly‑paid employees must be paid **before the end of the 7th day of the next month** [W-DUE].\n- Since the salary for two months is overdue, the company is already in violation of this provision.\n\n**What to do next**\n1. **Raise a written grievance** with HR/management asking for payment and a written explanation. Keep a copy for your records.\n2. If no satisfactory response within a reasonable time (e.g., 7 days), you can **file a wage claim** with the authority appointed under the Code (an officer not below Gazetted rank) [W-CLAIM].\n3. You may also approach a registered trade union or the Inspector‑cum‑Facilitator to file the claim on your behalf.\n\n**What to collect**\n- Offer/appointment letter or any employment contract.\n- Salary slips or any pay‑statement showing the amount due.\n- Bank statements showing the last salary received.\n- All emails / messages you have sent to HR asking for salary.\n- Any written response from HR (even if it just says “no funds”).\n\n**When to get a real lawyer**\n- If the claim authority does not act or the company refuses to pay even after the claim, consider consulting a labour lawyer.\n- If you face any retaliation, threats, or if the amount increases, seek legal counsel immediately.\n\n*This is general information, not legal advice.*\n\n### कब असली वकील चाहिए\n- सामने वाला वकील के ज़रिए जवाब दे, नोटिस भेजे, या धमकी दे।\n- समय-सीमा पास हो, या रक़म आपके लिए बड़ी हो।\n- यह सामान्य जानकारी है, क़ानूनी सलाह नहीं।\nमुफ़्त क़ानूनी सहायता: NALSA हेल्पलाइन 15100 पर कॉल करें या अपने ज़िला विधिक सेवा प्राधिकरण (DLSA) जाएँ। महिलाएँ और बच्चे आय चाहे जो हो, पात्र हैं; बाक़ी लोग विधिक सेवा प्राधिकरण अधिनियम, 1987 की धारा 12 के तहत, जैसे आय के आधार पर, पात्र होते हैं। [LA-NALSA]\n\n**Draft letter (edit before sending):**\n```\nDate: 21 November 2026\nTo: [HR Manager / Director], [Company name], [Address]\nSubject: Payment of pending salary of ₹18,000\n\nI work as [designation] (Employee ID [ID]) since [joining date].\nMy salary for 2 months totalling ₹18,000 has not been paid.\n[My employment ended on (date)], and my dues remain unpaid.\n\nPlease pay ₹18,000 to my salary account within 7 days and share a statement of my dues.\nIf it is not paid, I will file a claim before the authority under the Code on Wages, 2019.\n\n[Your name] · [Phone] · [Email]\nEnclosed: offer letter, salary slips, bank statement, earlier emails\n```\n\n**Sources (checked 2026-11-21):**\n- [W-DUE] https://vvgnli.gov.in/en/node/94506 · https://future.indiankanoon.org/doc/151218690/\n- [W-CLAIM] https://www.advocatekhoj.com/library/bareacts/codeonwages/45.php · https://taxclue.in/blog/section-45-code-on-wages-2019-claims-and-procedure/\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "W-DUE",
+      "W-CLAIM",
+      "LA-NALSA"
+    ],
+    "guard_removed": [],
+    "attempts": [
+      {
+        "raw": "**What happened**\n- You have been working for the company and have not received salary for the last 2 months (₹18,000 per month). HR says there are no funds.\n\n**Where you stand**\n- Under the Code on Wages, 2019, wages for monthly‑paid employees must be paid **before the end of the 7th day of the next month** [W-DUE].\n- Since the salary for two months is overdue, the company is already in violation of this provision.\n\n**What to do next**\n1. **Raise a written grievance** with HR/management asking for payment and a written explanation. Keep a copy for your records.\n2. If no satisfactory response within a reasonable time (e.g., 7 days), you can **file a wage claim** with the authority appointed under the Code (an officer not below Gazetted rank) [W-CLAIM].\n3. You may also approach a registered trade union or the Inspector‑cum‑Facilitator to file the claim on your behalf.\n\n**What to collect**\n- Offer/appointment letter or any employment contract.\n- Salary slips or any pay‑statement showing the amount due.\n- Bank statements showing the last salary received.\n- All emails / messages you have sent to HR asking for salary.\n- Any written response from HR (even if it just says “no funds”).\n\n**When to get a real lawyer**\n- If the claim authority does not act or the company refuses to pay even after the claim, consider consulting a labour lawyer.\n- If you face any retaliation, threats, or if the amount increases, seek legal counsel immediately.\n\n*This is general information, not legal advice.*",
+        "removed": []
+      }
+    ]
+  }
+}

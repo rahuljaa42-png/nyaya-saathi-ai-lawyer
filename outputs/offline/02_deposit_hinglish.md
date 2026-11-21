@@ -6,7 +6,6 @@ Bhai mera PG owner mera 25000 deposit wapas nahi kar raha. Maine 1 August 2026 k
 
 ### Your case so far
 - **Problem:** Security deposit not returned
-- **Amount mentioned:** ₹2,026,000
 - **Dates mentioned:** 1 August 2026, August 2026
 - **Proof you mentioned:** date you handed back the keys
 - **Collect if you can:** rent agreement, proof you paid the deposit (receipt / bank or UPI transfer), photos or video of the flat when you left, messages with the landlord
@@ -24,13 +23,13 @@ Bhai mera PG owner mera 25000 deposit wapas nahi kar raha. Maine 1 August 2026 k
 ```
 Date: 21 November 2026
 To: [Landlord's name], [Address of the flat]
-Subject: Demand for refund of security deposit of ₹2,026,000
+Subject: Demand for refund of security deposit of ₹[AMOUNT]
 
 I was your tenant at [address] from [start date] to [date keys were handed back].
-I paid a security deposit of ₹2,026,000 on [date] by [cash / bank transfer / UPI, reference].
+I paid a security deposit of ₹[AMOUNT] on [date] by [cash / bank transfer / UPI, reference].
 I handed back vacant possession on [date]. The deposit has not been refunded.
 
-Please refund ₹2,026,000 to [UPI ID / bank account] within 15 days of this letter.
+Please refund ₹[AMOUNT] to [UPI ID / bank account] within 15 days of this letter.
 If you are deducting anything, please send a written, itemised list with reasons and bills.
 
 If I do not receive the refund or a written reply within 15 days, I will take further steps

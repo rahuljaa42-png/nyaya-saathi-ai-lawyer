@@ -1,0 +1,64 @@
+{
+  "case": {
+    "story": "Which IPC section can I use to send my landlord to jail for not returning my deposit of 30000?",
+    "language": "en",
+    "issue": "deposit",
+    "issue_scores": {
+      "deposit": 2,
+      "consumer_refund": 1,
+      "unpaid_salary": 0
+    },
+    "amounts_mentioned": [
+      30000
+    ],
+    "dates_mentioned": [],
+    "months_since_problem": null,
+    "evidence_mentioned": [],
+    "evidence_to_collect": [
+      "rent agreement",
+      "proof you paid the deposit (receipt / bank or UPI transfer)",
+      "date you handed back the keys",
+      "photos or video of the flat when you left",
+      "messages with the landlord"
+    ],
+    "red_flags": [
+      {
+        "code": "criminal",
+        "message": "This involves police or a crime. Talk to a lawyer or free legal aid before you act."
+      }
+    ],
+    "in_scope": false,
+    "llm": {
+      "issue": "deposit",
+      "language": "en",
+      "timeline": [
+        {
+          "date": "unknown",
+          "event": "landlord did not return deposit"
+        }
+      ],
+      "other_party": "landlord",
+      "amount_inr": 30000,
+      "evidence_have": [],
+      "evidence_missing": [
+        "rental agreement",
+        "receipt of deposit payment",
+        "communication with landlord"
+      ],
+      "questions": [
+        "Do you have a written rental agreement specifying the deposit amount?",
+        "Did you receive any written acknowledgment of the deposit payment?",
+        "Have you communicated with the landlord about the refund and received any response?"
+      ],
+      "safety_or_crime": false,
+      "summary": "The user wants to know which IPC section can be used to penalize a landlord for not returning a ₹30,000 security deposit. They have not provided evidence such as a lease or receipt."
+    }
+  },
+  "result": {
+    "markdown": "### You should talk to a real lawyer\n- This involves police or a crime. Talk to a lawyer or free legal aid before you act.\nFree legal aid: call the NALSA helpline 15100 or visit your District Legal Services Authority. Women and children are eligible whatever they earn; others qualify under Section 12 of the Legal Services Authorities Act, 1987, for example by income. [LA-NALSA]\n\n**Sources (checked 2026-11-21):**\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  }
+}

@@ -48,10 +48,10 @@ government pattern.
 - Drafts are English only.
 - State rent laws are not covered.
 - The KB goes stale: it carries a `verified_on` date and needs a lawyer review each quarter.
-- The LLM mode was tested only with a mock model here. Run `python run_tests.py --backend llm` with a real key.
+- The LLM mode was tested only with a mock model here. Run `python run_tests.py --backend llm` with your Groq key.
 
 ## Scale and cost
-About 3–4 model calls per conversation (intake, answer, maybe a retry, draft), roughly 6–8k tokens. That is well
-under ₹1 on a Flash-class model. The offline mode is free. Adding a new problem means adding lawyer-reviewed KB
+About 3–4 model calls per conversation (intake, answer, maybe a retry, draft), roughly 6–8k tokens. That is about $0.002
+(well under ₹1) on GPT-OSS-120B via Groq ($0.15 / $0.75 per 1M tokens). The offline mode is free. Adding a new problem means adding lawyer-reviewed KB
 entries, keywords and a template. The guard and triage do not change. A real deployment would add a
 lawyer-review queue for new KB entries and log every guard removal as a signal of where the model hallucinates.

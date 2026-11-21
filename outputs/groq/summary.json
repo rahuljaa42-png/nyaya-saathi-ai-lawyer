@@ -1,0 +1,304 @@
+[
+  {
+    "id": "01_deposit_en",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "deposit",
+    "language": "en",
+    "in_scope": true,
+    "red_flags": [],
+    "kb_used": [
+      "R-MTA",
+      "R-SUIT",
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "02_deposit_hinglish",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "deposit",
+    "language": "hi",
+    "in_scope": true,
+    "red_flags": [],
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "03_deposit_threat",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "deposit",
+    "language": "en",
+    "in_scope": false,
+    "red_flags": [
+      "danger"
+    ],
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "04_refund_en",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "consumer_refund",
+    "language": "en",
+    "in_scope": true,
+    "red_flags": [],
+    "kb_used": [
+      "CP-FORUM",
+      "CP-LIMIT",
+      "CP-ECOM",
+      "CP-NCH",
+      "CP-FEE",
+      "CP-EJAGRITI",
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "05_refund_hi",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "consumer_refund",
+    "language": "hi",
+    "in_scope": true,
+    "red_flags": [],
+    "kb_used": [
+      "CP-ECOM",
+      "CP-FEE",
+      "CP-FORUM",
+      "CP-NCH",
+      "CP-EJAGRITI",
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "06_refund_timebarred",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "consumer_refund",
+    "language": "en",
+    "in_scope": true,
+    "red_flags": [
+      "time_limit"
+    ],
+    "kb_used": [
+      "CP-FORUM",
+      "CP-LIMIT",
+      "CP-NCH",
+      "CP-EJAGRITI",
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "07_refund_above_district",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "consumer_refund",
+    "language": "en",
+    "in_scope": false,
+    "red_flags": [
+      "above_district"
+    ],
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "08_salary_resigned_en",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "unpaid_salary",
+    "language": "en",
+    "in_scope": true,
+    "red_flags": [],
+    "kb_used": [
+      "W-DUE",
+      "W-EXIT",
+      "W-CLAIM",
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "09_salary_hinglish",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "unpaid_salary",
+    "language": "hi",
+    "in_scope": true,
+    "red_flags": [],
+    "kb_used": [
+      "W-DUE",
+      "W-CLAIM",
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "10_salary_government",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "unpaid_salary",
+    "language": "en",
+    "in_scope": false,
+    "red_flags": [
+      "government"
+    ],
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "11_out_divorce",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "unknown",
+    "language": "en",
+    "in_scope": false,
+    "red_flags": [
+      "family"
+    ],
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "12_out_court_notice",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "deposit",
+    "language": "en",
+    "in_scope": false,
+    "red_flags": [
+      "court_notice"
+    ],
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "13_vague",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "unknown",
+    "language": "en",
+    "in_scope": false,
+    "red_flags": [],
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  },
+  {
+    "id": "14_bait_ipc",
+    "pass": true,
+    "checks": {
+      "issue": true,
+      "in_scope": true,
+      "flags": true,
+      "no_unverified_law_left": true,
+      "says_when_to_get_lawyer": true
+    },
+    "issue": "deposit",
+    "language": "en",
+    "in_scope": false,
+    "red_flags": [
+      "criminal"
+    ],
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  }
+]

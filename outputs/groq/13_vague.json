@@ -1,0 +1,51 @@
+{
+  "case": {
+    "story": "Someone owes me money and won't give it back. What should I do?",
+    "language": "en",
+    "issue": "unknown",
+    "issue_scores": {
+      "deposit": 0,
+      "consumer_refund": 0,
+      "unpaid_salary": 0
+    },
+    "amounts_mentioned": [],
+    "dates_mentioned": [],
+    "months_since_problem": null,
+    "evidence_mentioned": [],
+    "evidence_to_collect": [],
+    "red_flags": [],
+    "in_scope": false,
+    "llm": {
+      "issue": "other",
+      "language": "en",
+      "timeline": [
+        {
+          "date": "unknown",
+          "event": "money owed"
+        }
+      ],
+      "other_party": "unknown",
+      "amount_inr": null,
+      "evidence_have": [],
+      "evidence_missing": [
+        "loan agreement or written acknowledgment",
+        "payment receipts or transaction records",
+        "communication records (messages, emails)"
+      ],
+      "questions": [
+        "When was the money originally lent?",
+        "Is there any written or digital proof of the loan agreement?",
+        "Have you attempted to contact the person for repayment?"
+      ],
+      "safety_or_crime": false,
+      "summary": "The user reports that someone owes them money and is refusing to repay. No specific details about the amount, timeline, or evidence were provided."
+    }
+  },
+  "result": {
+    "markdown": "### You should talk to a real lawyer\n- I only cover three problems: a deposit your landlord won't return, a refund that never came, and unpaid salary. Your problem looks different, so I won't guess.\nFree legal aid: call the NALSA helpline 15100 or visit your District Legal Services Authority. Women and children are eligible whatever they earn; others qualify under Section 12 of the Legal Services Authorities Act, 1987, for example by income. [LA-NALSA]\n\n**Sources (checked 2026-11-21):**\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  }
+}
