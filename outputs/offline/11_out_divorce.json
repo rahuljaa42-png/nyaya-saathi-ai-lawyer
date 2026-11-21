@@ -1,0 +1,31 @@
+{
+  "case": {
+    "story": "My husband left me and I want a divorce and maintenance for my child. What are my rights?",
+    "language": "en",
+    "issue": "unknown",
+    "issue_scores": {
+      "deposit": 0,
+      "consumer_refund": 0,
+      "unpaid_salary": 0
+    },
+    "amounts_mentioned": [],
+    "dates_mentioned": [],
+    "months_since_problem": null,
+    "evidence_mentioned": [],
+    "evidence_to_collect": [],
+    "red_flags": [
+      {
+        "code": "family",
+        "message": "Family matters (divorce, custody, maintenance, inheritance) are not covered here."
+      }
+    ],
+    "in_scope": false
+  },
+  "result": {
+    "markdown": "### You should talk to a real lawyer\n- Family matters (divorce, custody, maintenance, inheritance) are not covered here.\nFree legal aid: call the NALSA helpline 15100 or visit your District Legal Services Authority. Women and children are eligible whatever they earn; others qualify under Section 12 of the Legal Services Authorities Act, 1987, for example by income. [LA-NALSA]\n\n**Sources (checked 2026-11-21):**\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  }
+}

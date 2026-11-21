@@ -1,0 +1,131 @@
+{
+  "verified_on": "2026-11-21",
+  "note": "Every legal statement the assistant may make comes from this file. Each entry was checked against the linked sources on the date above. 'cites' lists the exact legal references the assistant is allowed to name; anything else is blocked by guard.py.",
+  "entries": [
+    {
+      "id": "CP-FORUM",
+      "issues": ["consumer_refund"],
+      "en": "Consumer complaints worth up to ₹50 lakh go to the District Consumer Commission. The value is what you paid for the goods or service, not the compensation you ask for.",
+      "hi": "₹50 लाख तक की उपभोक्ता शिकायत ज़िला उपभोक्ता आयोग में जाती है। यह राशि वह है जो आपने सामान या सेवा के लिए चुकाई, न कि जो मुआवज़ा आप माँग रहे हैं।",
+      "cites": ["Consumer Protection Act, 2019", "Section 34"],
+      "sources": ["https://theprint.in/economy/govt-notifies-new-rules-for-consumer-commissions-national-bodys-jurisdiction-enhanced/791753",
+                  "https://righttoinformation.wiki/how-to-file-consumer-forum-complaint-e-jagriti-dcdrc-india"]
+    },
+    {
+      "id": "CP-LIMIT",
+      "issues": ["consumer_refund"],
+      "en": "A consumer complaint must be filed within two years of the problem (the 'cause of action').",
+      "hi": "उपभोक्ता शिकायत समस्या होने (कारण उत्पन्न होने) के दो साल के भीतर दाखिल करनी होती है।",
+      "cites": ["Consumer Protection Act, 2019", "Section 69"],
+      "sources": ["https://righttoinformation.wiki/edaakhil-online-consumer-commission-filing-india"]
+    },
+    {
+      "id": "CP-FEE",
+      "issues": ["consumer_refund"],
+      "en": "At the District Commission there is no filing fee for claims up to ₹5 lakh. Check the current fee on the e-Jagriti portal before filing.",
+      "hi": "ज़िला आयोग में ₹5 लाख तक के दावे पर कोई फ़ाइलिंग फ़ीस नहीं है। फ़ाइल करने से पहले e-Jagriti पोर्टल पर मौजूदा फ़ीस देख लें।",
+      "cites": ["Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020"],
+      "sources": ["https://righttoinformation.wiki/how-to-file-consumer-forum-complaint-e-jagriti-dcdrc-india"],
+      "caution": "Secondary source; confirm on the portal."
+    },
+    {
+      "id": "CP-EJAGRITI",
+      "issues": ["consumer_refund"],
+      "en": "Consumer complaints can be filed online on the e-Jagriti portal (e-jagriti.gov.in), which replaced e-Daakhil and has been available in consumer commissions across the country since 1 January 2025.",
+      "hi": "उपभोक्ता शिकायत e-Jagriti पोर्टल (e-jagriti.gov.in) पर ऑनलाइन दाखिल की जा सकती है। इसने e-Daakhil की जगह ली है और 1 जनवरी 2025 से देश भर के उपभोक्ता आयोगों में उपलब्ध है।",
+      "cites": [],
+      "sources": ["https://eparlib.sansad.in/bitstream/123456789/2996292/1/AU4546_s9hvb0.pdf", "https://en.wikipedia.org/wiki/E-Jagriti"]
+    },
+    {
+      "id": "CP-NCH",
+      "issues": ["consumer_refund"],
+      "en": "Before going to the Commission you can register a free grievance with the National Consumer Helpline: call 1915 or 1800-11-4000, or use consumerhelpline.gov.in. It works in 17 languages.",
+      "hi": "आयोग जाने से पहले आप राष्ट्रीय उपभोक्ता हेल्पलाइन पर मुफ़्त शिकायत दर्ज कर सकते हैं: 1915 या 1800-11-4000 पर कॉल करें, या consumerhelpline.gov.in पर जाएँ। यह 17 भाषाओं में काम करती है।",
+      "cites": [],
+      "sources": ["https://consumerhelpline.gov.in/public/about", "https://www.angelone.in/news/economy/e-commerce-leads-as-national-consumer-helpline-helps-recover-45-crore-in-refunds-across-31-sectors"]
+    },
+    {
+      "id": "CP-ECOM",
+      "issues": ["consumer_refund"],
+      "en": "Every e-commerce platform must have a Grievance Officer whose name and contact are shown on the platform. Complaints must be acknowledged within 48 hours and resolved within one month.",
+      "hi": "हर ई-कॉमर्स प्लेटफ़ॉर्म को एक शिकायत अधिकारी (Grievance Officer) रखना होता है, जिसका नाम और संपर्क प्लेटफ़ॉर्म पर दिखाया जाता है। शिकायत की पावती 48 घंटे में और समाधान एक महीने में देना होता है।",
+      "cites": ["Consumer Protection (E-Commerce) Rules, 2020"],
+      "sources": ["https://fcainfoweb.nic.in/PMS/writereaddata/2021_LS_B_1317.pdf", "https://thelaw.institute/consumer-protection-issues/e-commerce-consumer-rights-grievance-redressal"]
+    },
+    {
+      "id": "W-CODE",
+      "issues": ["unpaid_salary"],
+      "en": "Salary disputes are now governed by the Code on Wages, 2019. Its main provisions came into force on 21 November 2025 and it replaced the Payment of Wages Act, 1936.",
+      "hi": "वेतन से जुड़े विवाद अब वेतन संहिता (Code on Wages), 2019 के तहत आते हैं। इसके मुख्य प्रावधान 21 नवंबर 2025 से लागू हुए और इसने वेतन भुगतान अधिनियम, 1936 की जगह ली।",
+      "cites": ["Code on Wages, 2019", "Payment of Wages Act, 1936"],
+      "sources": ["https://labour.gov.in/sites/default/files/e-noti-wage_0.pdf", "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251123703501.pdf"]
+    },
+    {
+      "id": "W-DUE",
+      "issues": ["unpaid_salary"],
+      "en": "For monthly-paid employees, wages must be paid before the end of the 7th day of the next month.",
+      "hi": "मासिक वेतन वाले कर्मचारियों का वेतन अगले महीने की 7 तारीख़ ख़त्म होने से पहले देना ज़रूरी है।",
+      "cites": ["Code on Wages, 2019", "Section 17"],
+      "sources": ["https://vvgnli.gov.in/en/node/94506", "https://future.indiankanoon.org/doc/151218690/"]
+    },
+    {
+      "id": "W-EXIT",
+      "issues": ["unpaid_salary"],
+      "en": "If you resigned, or were removed, dismissed or retrenched, your wages are due within two working days.",
+      "hi": "अगर आपने इस्तीफ़ा दिया है, या आपको हटाया, बर्ख़ास्त या छँटनी किया गया है, तो आपका बकाया वेतन दो कार्य-दिवसों के भीतर देना होता है।",
+      "cites": ["Code on Wages, 2019", "Section 17"],
+      "sources": ["https://www.livelaw.in/articles/two-working-days-code-wages-employee-final-settlement-552780", "https://vvgnli.gov.in/en/node/94506"],
+      "caution": "The state government can set a different time limit; check your state's rules."
+    },
+    {
+      "id": "W-CLAIM",
+      "issues": ["unpaid_salary"],
+      "en": "You can file a wage claim before the authority appointed under the Code (an officer not below Gazetted rank), within three years of the claim arising. A registered trade union or the Inspector-cum-Facilitator can also file for you. Late claims can be accepted if you show sufficient cause.",
+      "hi": "आप वेतन संहिता के तहत नियुक्त प्राधिकारी (राजपत्रित अधिकारी या उससे ऊपर) के सामने दावा दायर कर सकते हैं, दावा बनने के तीन साल के भीतर। पंजीकृत ट्रेड यूनियन या इंस्पेक्टर-कम-फ़ैसिलिटेटर भी आपकी ओर से दायर कर सकते हैं। देरी का पर्याप्त कारण दिखाने पर देर से दावा भी माना जा सकता है।",
+      "cites": ["Code on Wages, 2019", "Section 45"],
+      "sources": ["https://www.advocatekhoj.com/library/bareacts/codeonwages/45.php", "https://taxclue.in/blog/section-45-code-on-wages-2019-claims-and-procedure/"]
+    },
+    {
+      "id": "W-RULES",
+      "issues": ["unpaid_salary"],
+      "en": "Some central and state rules under the new labour codes were still being notified after the codes started, so who exactly the claim authority is in your state should be confirmed with your local labour office.",
+      "hi": "नए श्रम संहिताओं के कुछ केंद्रीय और राज्य नियम संहिताएँ लागू होने के बाद भी अधिसूचित हो रहे थे, इसलिए आपके राज्य में दावा प्राधिकारी कौन है, यह अपने स्थानीय श्रम कार्यालय से पक्का कर लें।",
+      "cites": [],
+      "sources": ["https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/government-of-india-notifies-the-labour-codes-ushers-a-new-era-of-compliances"]
+    },
+    {
+      "id": "R-STATE",
+      "issues": ["deposit"],
+      "en": "Rent is a state subject, so the rules on security deposits depend on your state. The Model Tenancy Act, 2021 is a central model law; it applies only where your state has adopted it.",
+      "hi": "किराया राज्य का विषय है, इसलिए सिक्योरिटी डिपॉज़िट के नियम आपके राज्य पर निर्भर करते हैं। मॉडल किरायेदारी अधिनियम, 2021 केंद्र का एक मॉडल क़ानून है; यह तभी लागू होता है जब आपके राज्य ने इसे अपनाया हो।",
+      "cites": ["Model Tenancy Act, 2021"],
+      "sources": ["https://deccanherald.com/opinion/model-tenancy-act-a-mixed-bag-1131814.html", "https://www.nobroker.in/rental-agreement/guides/model-tenancy-act/"]
+    },
+    {
+      "id": "R-MTA",
+      "issues": ["deposit"],
+      "en": "Under the Model Tenancy Act, a residential security deposit can be at most two months' rent, and the landlord must refund it when you hand back vacant possession, after deducting what you genuinely owe. A landlord who fails to refund is liable to pay interest.",
+      "hi": "मॉडल किरायेदारी अधिनियम के तहत आवासीय सिक्योरिटी डिपॉज़िट अधिकतम दो महीने का किराया हो सकता है, और मकान ख़ाली करके सौंपते समय मकान-मालिक को उसे लौटाना होता है, आपकी असली बकाया राशि काटकर। न लौटाने पर मकान-मालिक को ब्याज देना पड़ता है।",
+      "cites": ["Model Tenancy Act, 2021"],
+      "sources": ["https://prsindia.org/billtrack/the-model-tenancy-act-2021", "https://www.thenewsminute.com/amp/story/money/security-deposit-dispute-resolution-all-you-need-know-about-model-tenancy-act-150006"],
+      "caution": "Only where your state has adopted it."
+    },
+    {
+      "id": "R-SUIT",
+      "issues": ["deposit"],
+      "en": "If the landlord still refuses, you can file a civil suit to recover the money. Courts have generally treated such recovery suits as having a three-year time limit, but which rule applies depends on the facts, so ask a lawyer if you are close to three years.",
+      "hi": "अगर मकान-मालिक फिर भी मना करे, तो आप पैसा वापस पाने के लिए सिविल मुक़दमा दायर कर सकते हैं। अदालतों ने आम तौर पर ऐसे वसूली मुक़दमों के लिए तीन साल की समय-सीमा मानी है, पर कौन-सा नियम लागू होगा यह तथ्यों पर निर्भर है, इसलिए तीन साल के क़रीब हों तो वकील से पूछें।",
+      "cites": ["Limitation Act, 1963", "Article 113"],
+      "sources": ["https://www.latestlaws.com/judgements/delhi-hc/2011/february/2011-latest-caselaw-1044-del", "https://supremetoday.ai/issue/limitation-period-security-deposit-recovery-suit"],
+      "caution": "Courts differ on the article; treat 3 years as a warning line, not a guarantee."
+    },
+    {
+      "id": "LA-NALSA",
+      "issues": ["consumer_refund", "unpaid_salary", "deposit", "out_of_scope"],
+      "en": "Free legal aid: call the NALSA helpline 15100 or visit your District Legal Services Authority. Women and children are eligible whatever they earn; others qualify under Section 12 of the Legal Services Authorities Act, 1987, for example by income.",
+      "hi": "मुफ़्त क़ानूनी सहायता: NALSA हेल्पलाइन 15100 पर कॉल करें या अपने ज़िला विधिक सेवा प्राधिकरण (DLSA) जाएँ। महिलाएँ और बच्चे आय चाहे जो हो, पात्र हैं; बाक़ी लोग विधिक सेवा प्राधिकरण अधिनियम, 1987 की धारा 12 के तहत, जैसे आय के आधार पर, पात्र होते हैं।",
+      "cites": ["Legal Services Authorities Act, 1987", "Section 12"],
+      "sources": ["https://nalsa.gov.in/legal-services/", "https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma"]
+    }
+  ]
+}

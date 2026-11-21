@@ -1,0 +1,38 @@
+{
+  "case": {
+    "story": "Meri company ne pichhle 2 mahine se salary nahi di. Main abhi bhi kaam kar raha hoon. Har mahine 18000 milta hai. HR bolta hai funds nahi hai.",
+    "language": "hinglish",
+    "issue": "unpaid_salary",
+    "issue_scores": {
+      "deposit": 0,
+      "consumer_refund": 0,
+      "unpaid_salary": 3
+    },
+    "amounts_mentioned": [],
+    "dates_mentioned": [],
+    "months_since_problem": 2.0,
+    "evidence_mentioned": [
+      "emails / messages asking for the salary"
+    ],
+    "evidence_to_collect": [
+      "offer or appointment letter",
+      "salary slips",
+      "bank statement showing the last salary received",
+      "resignation or termination letter (if any)"
+    ],
+    "red_flags": [],
+    "in_scope": true
+  },
+  "result": {
+    "markdown": "### Your case so far\n- **Problem:** Unpaid salary\n- **Proof you mentioned:** emails / messages asking for the salary\n- **Collect if you can:** offer or appointment letter, salary slips, bank statement showing the last salary received, resignation or termination letter (if any)\n**To make this stronger, tell me:** Which months are unpaid, and how much per month? · Are you still working there, or did you resign / get removed? On what date? · Is it a private company (not government)? · Which state do you work in?\n### Where you stand and what to do\n1. **Collect your proof.** Offer letter, salary slips, bank statements and messages asking for the salary.\n2. **Send a written demand to HR.** Send the demand letter below by email, with the exact months and amount.\n    - Salary disputes are now governed by the Code on Wages, 2019. Its main provisions came into force on 21 November 2025 and it replaced the Payment of Wages Act, 1936. [W-CODE]\n    - For monthly-paid employees, wages must be paid before the end of the 7th day of the next month. [W-DUE]\n    - If you resigned, or were removed, dismissed or retrenched, your wages are due within two working days. _(The state government can set a different time limit; check your state's rules.)_ [W-EXIT]\n3. **File a wage claim.** If unpaid, file a claim with the wage authority (ask your district labour office who it is).\n    - You can file a wage claim before the authority appointed under the Code (an officer not below Gazetted rank), within three years of the claim arising. A registered trade union or the Inspector-cum-Facilitator can also file for you. Late claims can be accepted if you show sufficient cause. [W-CLAIM]\n    - Some central and state rules under the new labour codes were still being notified after the codes started, so who exactly the claim authority is in your state should be confirmed with your local labour office. [W-RULES]\n4. **Get free help.** Free legal aid can help you file.\n    - Free legal aid: call the NALSA helpline 15100 or visit your District Legal Services Authority. Women and children are eligible whatever they earn; others qualify under Section 12 of the Legal Services Authorities Act, 1987, for example by income. [LA-NALSA]\n### Draft you can send\n```\nDate: 21 November 2026\nTo: [HR Manager / Director], [Company name], [Address]\nSubject: Payment of pending salary of ₹[AMOUNT]\n\nI [work / worked] as [designation] (Employee ID [ID]) since [joining date].\nMy salary for [months] totalling ₹[AMOUNT] has not been paid.\n[I resigned on (date) / My employment ended on (date)], and my dues remain unpaid.\n\nPlease pay ₹[AMOUNT] to my salary account within 7 days and share a statement of my dues.\nIf it is not paid, I will file a claim before the authority under the Code on Wages, 2019.\n\n[Your name] · [Phone] · [Email]\nEnclosed: offer letter, salary slips, bank statement, earlier emails\n```\n### When you need a real lawyer\n- The other side replies through a lawyer, sends you a notice, or threatens you.\n- You are near a time limit, or the amount is large for you.\n- You are not sure the facts above are right. This is general information, not legal advice.\nFree legal aid: call the NALSA helpline 15100 or visit your District Legal Services Authority. Women and children are eligible whatever they earn; others qualify under Section 12 of the Legal Services Authorities Act, 1987, for example by income. [LA-NALSA]\n\n**Sources (checked 2026-11-21):**\n- [W-CODE] https://labour.gov.in/sites/default/files/e-noti-wage_0.pdf · https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251123703501.pdf\n- [W-DUE] https://vvgnli.gov.in/en/node/94506 · https://future.indiankanoon.org/doc/151218690/\n- [W-EXIT] https://www.livelaw.in/articles/two-working-days-code-wages-employee-final-settlement-552780 · https://vvgnli.gov.in/en/node/94506\n- [W-CLAIM] https://www.advocatekhoj.com/library/bareacts/codeonwages/45.php · https://taxclue.in/blog/section-45-code-on-wages-2019-claims-and-procedure/\n- [W-RULES] https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/government-of-india-notifies-the-labour-codes-ushers-a-new-era-of-compliances\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "W-CODE",
+      "W-DUE",
+      "W-EXIT",
+      "W-CLAIM",
+      "W-RULES",
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  }
+}

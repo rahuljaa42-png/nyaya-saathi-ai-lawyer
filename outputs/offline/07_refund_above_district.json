@@ -1,0 +1,39 @@
+{
+  "case": {
+    "story": "I paid Rs 65 lakh to a dealer for a luxury car booking online and they cancelled the order but have not refunded the money.",
+    "language": "en",
+    "issue": "consumer_refund",
+    "issue_scores": {
+      "deposit": 0,
+      "consumer_refund": 3,
+      "unpaid_salary": 0
+    },
+    "amounts_mentioned": [
+      6500000
+    ],
+    "dates_mentioned": [],
+    "months_since_problem": null,
+    "evidence_mentioned": [
+      "order ID and invoice",
+      "proof of payment",
+      "screenshots of return / refund status"
+    ],
+    "evidence_to_collect": [
+      "chat or email with customer care"
+    ],
+    "red_flags": [
+      {
+        "code": "above_district",
+        "message": "Above ₹50 lakh the District Commission cannot hear it. Talk to a lawyer."
+      }
+    ],
+    "in_scope": false
+  },
+  "result": {
+    "markdown": "### You should talk to a real lawyer\n- Above ₹50 lakh the District Commission cannot hear it. Talk to a lawyer.\nFree legal aid: call the NALSA helpline 15100 or visit your District Legal Services Authority. Women and children are eligible whatever they earn; others qualify under Section 12 of the Legal Services Authorities Act, 1987, for example by income. [LA-NALSA]\n\n**Sources (checked 2026-11-21):**\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  }
+}

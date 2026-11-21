@@ -1,0 +1,40 @@
+{
+  "case": {
+    "story": "मैंने अमेज़न से 8,999 रुपये का मोबाइल ऑर्डर किया था, ख़राब निकला। रिटर्न कर दिया पर एक महीने से रिफ़ंड नहीं आया। क्या करूँ?",
+    "language": "hi",
+    "issue": "consumer_refund",
+    "issue_scores": {
+      "deposit": 0,
+      "consumer_refund": 3,
+      "unpaid_salary": 0
+    },
+    "amounts_mentioned": [
+      8999
+    ],
+    "dates_mentioned": [],
+    "months_since_problem": null,
+    "evidence_mentioned": [
+      "order ID and invoice"
+    ],
+    "evidence_to_collect": [
+      "proof of payment",
+      "screenshots of return / refund status",
+      "chat or email with customer care"
+    ],
+    "red_flags": [],
+    "in_scope": true
+  },
+  "result": {
+    "markdown": "### आपका केस अभी तक\n- **Problem:** रिफ़ंड या ख़राब सामान (उपभोक्ता)\n- **Amount mentioned:** ₹8,999\n- **Proof you mentioned:** order ID and invoice\n- **Collect if you can:** proof of payment, screenshots of return / refund status, chat or email with customer care\n**केस मज़बूत करने के लिए बताइए:** कौन-सा प्लेटफ़ॉर्म या विक्रेता, और ऑर्डर ID क्या है? · कितना भुगतान किया और किस तारीख़ को? · रिटर्न/रिफ़ंड कब माँगा, और स्टेटस क्या दिखा रहा है? · क्या आपने प्लेटफ़ॉर्म के शिकायत अधिकारी को लिखा है?\n### आपकी स्थिति और क्या करें\n1. **अपने सबूत इकट्ठा करें.**\n2. **शिकायत अधिकारी को लिखें.**\n    - हर ई-कॉमर्स प्लेटफ़ॉर्म को एक शिकायत अधिकारी (Grievance Officer) रखना होता है, जिसका नाम और संपर्क प्लेटफ़ॉर्म पर दिखाया जाता है। शिकायत की पावती 48 घंटे में और समाधान एक महीने में देना होता है। [CP-ECOM]\n3. **राष्ट्रीय उपभोक्ता हेल्पलाइन पर दर्ज करें.**\n    - आयोग जाने से पहले आप राष्ट्रीय उपभोक्ता हेल्पलाइन पर मुफ़्त शिकायत दर्ज कर सकते हैं: 1915 या 1800-11-4000 पर कॉल करें, या consumerhelpline.gov.in पर जाएँ। यह 17 भाषाओं में काम करती है। [CP-NCH]\n4. **ज़िला उपभोक्ता आयोग में दाखिल करें.**\n    - उपभोक्ता शिकायत e-Jagriti पोर्टल (e-jagriti.gov.in) पर ऑनलाइन दाखिल की जा सकती है। इसने e-Daakhil की जगह ली है और 1 जनवरी 2025 से देश भर के उपभोक्ता आयोगों में उपलब्ध है। [CP-EJAGRITI]\n    - ₹50 लाख तक की उपभोक्ता शिकायत ज़िला उपभोक्ता आयोग में जाती है। यह राशि वह है जो आपने सामान या सेवा के लिए चुकाई, न कि जो मुआवज़ा आप माँग रहे हैं। [CP-FORUM]\n    - ज़िला आयोग में ₹5 लाख तक के दावे पर कोई फ़ाइलिंग फ़ीस नहीं है। फ़ाइल करने से पहले e-Jagriti पोर्टल पर मौजूदा फ़ीस देख लें। [CP-FEE]\n    - उपभोक्ता शिकायत समस्या होने (कारण उत्पन्न होने) के दो साल के भीतर दाखिल करनी होती है। [CP-LIMIT]\nमुफ़्त क़ानूनी सहायता: NALSA हेल्पलाइन 15100 पर कॉल करें या अपने ज़िला विधिक सेवा प्राधिकरण (DLSA) जाएँ। महिलाएँ और बच्चे आय चाहे जो हो, पात्र हैं; बाक़ी लोग विधिक सेवा प्राधिकरण अधिनियम, 1987 की धारा 12 के तहत, जैसे आय के आधार पर, पात्र होते हैं। [LA-NALSA]\n### भेजने के लिए ड्राफ़्ट (अंग्रेज़ी में)\n```\nDate: 21 November 2026\nTo: The Grievance Officer, [Platform name]\nSubject: Refund not received – Order [ORDER ID]\n\nI placed order [ORDER ID] on [date] and paid ₹8,999 by [mode].\n[I returned the item on (date) / The order was cancelled on (date)], and the refund was promised by [date].\nAs of today the refund has not reached my account.\n\nPlease refund ₹8,999 to my original payment method within 7 days and confirm in writing.\nIf this is not resolved, I will register a grievance with the National Consumer Helpline\nand file a complaint before the District Consumer Commission.\n\n[Your name] · [Registered phone/email on the account]\nEnclosed: invoice, payment proof, screenshots of the return/refund status\n```\n### कब असली वकील चाहिए\n- सामने वाला वकील के ज़रिए जवाब दे, नोटिस भेजे, या धमकी दे।\n- समय-सीमा पास हो, या रक़म आपके लिए बड़ी हो।\n- यह सामान्य जानकारी है, क़ानूनी सलाह नहीं।\nमुफ़्त क़ानूनी सहायता: NALSA हेल्पलाइन 15100 पर कॉल करें या अपने ज़िला विधिक सेवा प्राधिकरण (DLSA) जाएँ। महिलाएँ और बच्चे आय चाहे जो हो, पात्र हैं; बाक़ी लोग विधिक सेवा प्राधिकरण अधिनियम, 1987 की धारा 12 के तहत, जैसे आय के आधार पर, पात्र होते हैं। [LA-NALSA]\n\n**Sources (checked 2026-11-21):**\n- [CP-ECOM] https://fcainfoweb.nic.in/PMS/writereaddata/2021_LS_B_1317.pdf · https://thelaw.institute/consumer-protection-issues/e-commerce-consumer-rights-grievance-redressal\n- [CP-NCH] https://consumerhelpline.gov.in/public/about · https://www.angelone.in/news/economy/e-commerce-leads-as-national-consumer-helpline-helps-recover-45-crore-in-refunds-across-31-sectors\n- [CP-EJAGRITI] https://eparlib.sansad.in/bitstream/123456789/2996292/1/AU4546_s9hvb0.pdf · https://en.wikipedia.org/wiki/E-Jagriti\n- [CP-FORUM] https://theprint.in/economy/govt-notifies-new-rules-for-consumer-commissions-national-bodys-jurisdiction-enhanced/791753 · https://righttoinformation.wiki/how-to-file-consumer-forum-complaint-e-jagriti-dcdrc-india\n- [CP-FEE] https://righttoinformation.wiki/how-to-file-consumer-forum-complaint-e-jagriti-dcdrc-india\n- [CP-LIMIT] https://righttoinformation.wiki/edaakhil-online-consumer-commission-filing-india\n- [LA-NALSA] https://nalsa.gov.in/legal-services/ · https://nalsa.gov.in/services/legal-aid/eligibility?locale=ma",
+    "kb_used": [
+      "CP-ECOM",
+      "CP-NCH",
+      "CP-EJAGRITI",
+      "CP-FORUM",
+      "CP-FEE",
+      "CP-LIMIT",
+      "LA-NALSA"
+    ],
+    "guard_removed": []
+  }
+}
